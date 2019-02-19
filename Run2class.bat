@@ -8,7 +8,7 @@ del %finder%class.txt
 SETLOCAL ENABLEDELAYEDEXPANSION
 for /L %%d in (1,1,15) do (
 set filename=data%%d.csv
-python main.py %finder% !filename! %outputLayer% %testing% %iteration% >> %finder%class.txt
+python main.py %finder% !filename! %outputLayer% %testing% %iteration% %%d >> %finder%class.txt
 )
 
 pause

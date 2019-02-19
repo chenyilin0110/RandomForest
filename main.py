@@ -8,7 +8,7 @@ import numpy as np
 import sys
 import preprocess
 import accuracyfunction
-#import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 #import seaborn as sns
 
 # set filename outputLayer testing iteration
@@ -17,7 +17,7 @@ filename = sys.argv[2]
 outputLayer = sys.argv[3]
 testing = sys.argv[4]
 iteration = sys.argv[5]
-print(filename)
+number = sys.argv[6]
 
 # load dataset
 if finder == "multi":
@@ -62,4 +62,5 @@ forestFit = forest.fit(x_train, y_train)
 # testing
 y_test_prediction = forest.predict(x_test)
 
+print(int(number), " ", end='')
 accuracyfunction.accuracy(y_test, y_test_prediction)
