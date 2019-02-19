@@ -1,0 +1,30 @@
+data1.csv
+The testing accuracy is 0.9728370221327968
+data2.csv
+The testing accuracy is 0.9595660749506904
+data3.csv
+The testing accuracy is 0.9538319482917821
+data4.csv
+The testing accuracy is 0.951969260326609
+data5.csv
+The testing accuracy is 0.9515972894482091
+data6.csv
+The testing accuracy is 0.9587525150905433
+data7.csv
+The testing accuracy is 0.9608778625954199
+data8.csv
+The testing accuracy is 0.9520225776105362
+data9.csv
+The testing accuracy is 0.9438202247191011
+data10.csv
+The testing accuracy is 0.9631956912028725
+data11.csv
+The testing accuracy is 0.9571836346336822
+data12.csv
+The testing accuracy is 0.970334928229665
+data13.csv
+The testing accuracy is 0.957345971563981
+data14.csv
+The testing accuracy is 0.9667644183773216
+data15.csv
+The testing accuracy is 0.9403409090909091
